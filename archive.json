@@ -21,7 +21,7 @@
         "attention": "core"
       }
     ],
-    "markdown_path": "./output/news-20260322-2108.md",
-    "json_path": "./output/json/news-20260322-210849.json"
+    "markdown_path": "output/news-20260322-2108.md",
+    "json_path": "output/json/news-20260322-210849.json"
   }
 ]
