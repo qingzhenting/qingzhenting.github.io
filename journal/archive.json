@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2026-03-23",
+    "title": "每日新闻简报 · 2026年03月23日",
+    "summary": "今日全球地缘政治紧张引发市场剧烈震荡，A 股与黄金同步暴跌，避险情绪瞬间反转。国内能源安全布局在油价暴涨背景下显效，临时调控措施稳定民生预期。食品安全与新能源汽车领域亦出现重大动态，监管与科技竞争成为焦点。",
+    "slug": "2026-03-23",
+    "generated_at": "2026-03-23T21:11:15.957589",
+    "sources_count": 2,
+    "total_items": 60,
+    "sections": [
+      {
+        "name": "产业变革与科技前沿",
+        "attention": "core"
+      },
+      {
+        "name": "市场震荡与宏观政策",
+        "attention": "core"
+      },
+      {
+        "name": "民生安全与社会治理",
+        "attention": "core"
+      }
+    ],
+    "markdown_path": "/Users/daijingfeng/Desktop/news-collector-clean-v2/output/archive/2026-03-23/latest/report.md",
+    "json_path": "/Users/daijingfeng/Desktop/news-collector-clean-v2/output/archive/2026-03-23/latest/aggregated.json"
+  },
+  {
+    "date": "2026-03-22",
+    "title": "每日新闻简报 · 2026年03月22日",
+    "summary": "今日舆情核心聚焦于地缘政治引发的全球震荡与国内产业升级的里程碑事件。中东局势急剧升级，伊朗转攻及 F-35 被击传闻引发全球市场对能源安全和加息预期的恐慌，直接推升国内油价并影响金融定价。与此同时，中国车企全球销量首超日本，标志着中国制造在全球产业链中的地位发生历史性跃迁。社会层面，AI 技术滥用与职业打假异化成为治理新考题，而清明假期消费热潮与民生热点则折射出公众在不确定性中的生活常态。",
+    "slug": "2026-03-22",
+    "generated_at": "2026-03-22T22:50:58.281838",
+    "sources_count": 2,
+    "total_items": 60,
+    "sections": [
+      {
+        "name": "产业跃迁与中国经济新象",
+        "attention": "core"
+      },
+      {
+        "name": "科技伦理与社会治理",
+        "attention": "core"
+      },
+      {
+        "name": "全球变局与地缘风暴",
+        "attention": "core"
+      }
+    ],
+    "markdown_path": "/Users/daijingfeng/Desktop/news-collector-clean-v2/output/archive/2026-03-22/latest/report.md",
+    "json_path": "/Users/daijingfeng/Desktop/news-collector-clean-v2/output/archive/2026-03-22/latest/aggregated.json"
+  }
+]
