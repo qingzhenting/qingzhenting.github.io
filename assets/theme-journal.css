@@ -558,23 +558,6 @@ a:hover {
   flex-wrap: wrap;
 }
 
-.signal-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: center;
-  margin-top: 14px;
-}
-
-.signal-summary {
-  width: 100%;
-  color: var(--muted);
-  font-size: 12px;
-  line-height: 1.8;
-}
-
-.evidence-pill,
-.detail-pill,
 .weak-pill {
   display: inline-flex;
   align-items: center;
@@ -582,29 +565,6 @@ a:hover {
   border-radius: 999px;
   font-size: 12px;
   font-weight: 700;
-}
-
-.evidence-pill-strong {
-  background: rgba(39, 103, 58, 0.12);
-  color: #2d6a3f;
-}
-
-.evidence-pill-moderate {
-  background: rgba(29, 78, 216, 0.1);
-  color: #1d4ed8;
-}
-
-.evidence-pill-weak {
-  background: rgba(142, 43, 32, 0.12);
-  color: var(--accent);
-}
-
-.detail-pill {
-  background: rgba(149, 112, 61, 0.14);
-  color: #7a5a28;
-}
-
-.weak-pill {
   background: rgba(111, 29, 21, 0.12);
   color: var(--accent-strong);
 }
