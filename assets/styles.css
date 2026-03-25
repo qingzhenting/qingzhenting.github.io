@@ -510,6 +510,58 @@ a:hover {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  flex-wrap: wrap;
+}
+
+.signal-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.signal-summary {
+  width: 100%;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.evidence-pill,
+.detail-pill,
+.weak-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.evidence-pill-strong {
+  background: rgba(22, 163, 74, 0.12);
+  color: #166534;
+}
+
+.evidence-pill-moderate {
+  background: rgba(37, 99, 235, 0.12);
+  color: #1d4ed8;
+}
+
+.evidence-pill-weak {
+  background: rgba(180, 35, 24, 0.12);
+  color: #b42318;
+}
+
+.detail-pill {
+  background: rgba(124, 58, 237, 0.1);
+  color: #6d28d9;
+}
+
+.weak-pill {
+  background: rgba(201, 133, 18, 0.14);
+  color: #9a6700;
 }
 
 .highlight-card {
