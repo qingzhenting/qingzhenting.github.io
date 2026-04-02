@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redirecting...</title>
+</head>
+<body>
+  <script>
+    (function() {
+      var path = location.pathname || "/";
+      var match = path.match(/^\/(\d{4}-\d{2}-\d{2})(?:\/index\.html)?$/);
+      if (match) {
+        location.replace("/daily-news/" + match[1] + "/index.html");
+        return;
+      }
+      location.replace("/daily-news/index.html");
+    })();
+  </script>
+  <p>Redirecting...</p>
+</body>
+</html>
