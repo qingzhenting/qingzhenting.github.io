@@ -6,6 +6,13 @@
       "description": "视频转录、摘要和导出",
       "tag": "Video Tools",
       "order": 20
+    },
+    "daily-news": {
+      "title": "新闻日报",
+      "href": "/daily-news/index.html",
+      "description": "多平台采集、AI 归并与日报归档",
+      "tag": "Daily News",
+      "order": 10
     }
   }
 }
