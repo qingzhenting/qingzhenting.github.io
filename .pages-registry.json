@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "video-to-texts": {
+      "title": "视频转文本",
+      "href": "/video-to-texts/index.html",
+      "description": "视频转录、摘要和导出",
+      "tag": "Video Tools",
+      "order": 20
+    }
+  }
+}
