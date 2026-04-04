@@ -1,0 +1,63 @@
+{
+  "content": {
+    "created_at": "2026-04-04T13:24:08.816096",
+    "id": "2026-04-04",
+    "metrics": {
+      "sections_count": 4,
+      "sources_count": 3,
+      "total_items": 20
+    },
+    "paths": {
+      "index": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/site/index.html",
+      "json": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/json/news-20260404-132516.json",
+      "markdown": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/news-20260404-1325.md",
+      "page": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/site/2026-04-04/index.html"
+    },
+    "source_url": "",
+    "summary": "今日国际地缘博弈显著升级，特朗普伊朗困局引发全球能源与供应链安全担忧，中美太空竞赛进入阿尔忒弥斯计划关键节点。国内产业端出现战略转向信号，小鹏汽车明确放弃低价市场，折射行业从价格战向价值战重构。社会舆情受清明节点影响，聚焦民生情感与法律纠纷，整体市场情绪在外部不确定性中保持审慎。",
+    "tags": [
+      "全球博弈与战略安全",
+      "产业重构与市场信号",
+      "风险外溢与舆情观察",
+      "社会情绪与公共议题"
+    ],
+    "title": "每日新闻简报 · 2026年04月04日",
+    "updated_at": "2026-04-04T13:24:08.816096"
+  },
+  "generated_at": "2026-04-04T13:25:16",
+  "metadata": {
+    "date": "2026-04-04",
+    "section_previews": [
+      {
+        "attention": "core",
+        "name": "全球博弈与战略安全"
+      },
+      {
+        "attention": "core",
+        "name": "产业重构与市场信号"
+      },
+      {
+        "attention": "secondary",
+        "name": "风险外溢与舆情观察"
+      }
+    ],
+    "site_theme": "journal"
+  },
+  "project": {
+    "key": "daily-news",
+    "target_subdir": "daily-news",
+    "title": "每日新闻简报"
+  },
+  "schema_version": "content-workspace.content-manifest/v1",
+  "site": {
+    "project_key": "daily-news",
+    "root_entry": {
+      "description": "多平台采集、AI 归并与日报归档",
+      "href": "/daily-news/index.html",
+      "order": 10,
+      "tag": "Daily News",
+      "title": "新闻日报"
+    },
+    "target_subdir": "daily-news"
+  }
+}
