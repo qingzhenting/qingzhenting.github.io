@@ -1,0 +1,63 @@
+{
+  "content": {
+    "created_at": "2026-03-29T21:43:06.022462",
+    "id": "2026-03-29",
+    "metrics": {
+      "sections_count": 6,
+      "sources_count": 3,
+      "total_items": 40
+    },
+    "paths": {
+      "index": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/site/index.html",
+      "json": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-29/latest/aggregated.json",
+      "markdown": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-29/latest/report.md",
+      "page": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/site/2026-03-29/index.html"
+    },
+    "source_url": "",
+    "summary": "今日国际局势剧烈震荡，美以伊冲突升级至地面行动风险，引发全球能源与金融市场高度警惕。国内科技与民生领域出现结构性信号，内存价格崩盘折射半导体周期转折，国产核药量产标志医疗自主可控突破。司法赔偿叫停事件引发对法治程序正义的深层追问，成为社会情绪焦点。",
+    "tags": [
+      "产业周期与民生突破",
+      "国际地缘与能源安全",
+      "法治进程与社会治理",
+      "企业治理与公共议题"
+    ],
+    "title": "每日新闻简报 · 2026年03月29日",
+    "updated_at": "2026-03-29T21:43:06.022462"
+  },
+  "generated_at": "2026-04-05T16:59:13",
+  "metadata": {
+    "date": "2026-03-29",
+    "section_previews": [
+      {
+        "attention": "core",
+        "name": "产业周期与民生突破"
+      },
+      {
+        "attention": "core",
+        "name": "国际地缘与能源安全"
+      },
+      {
+        "attention": "core",
+        "name": "法治进程与社会治理"
+      }
+    ],
+    "site_theme": "journal"
+  },
+  "project": {
+    "key": "daily-news",
+    "target_subdir": "daily-news",
+    "title": "每日新闻简报"
+  },
+  "schema_version": "content-workspace.content-manifest/v1",
+  "site": {
+    "project_key": "daily-news",
+    "root_entry": {
+      "description": "多平台采集、AI 归并与日报归档",
+      "href": "/daily-news/index.html",
+      "order": 10,
+      "tag": "Daily News",
+      "title": "新闻日报"
+    },
+    "target_subdir": "daily-news"
+  }
+}

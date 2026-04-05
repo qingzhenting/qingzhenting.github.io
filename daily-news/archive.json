@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-04-05",
+    "title": "每日新闻简报 · 2026年04月05日",
+    "summary": "今日国际局势因美伊冲突升级而显著紧张，特朗普政府陷入外交困局，中伊潜在反制措施引发全球供应链担忧。财经领域，土耳其为应对货币贬值两周内抛售近120吨黄金，创下近年纪录，凸显地缘风险对资产配置的冲击。科技方面，阿尔忒弥斯2号发射标志着中美太空竞赛进入新阶段。国内民生层面，头部主播带货合规性受央视调查，折射电商监管趋严信号。",
+    "slug": "2026-04-05",
+    "generated_at": "2026-04-05T11:38:10.992370",
+    "sources_count": 3,
+    "total_items": 20,
+    "sections": [
+      {
+        "name": "深空探索与大国竞合",
+        "attention": "core"
+      },
+      {
+        "name": "地缘博弈与全球变局",
+        "attention": "core"
+      },
+      {
+        "name": "社会观察与产业监管",
+        "attention": "secondary"
+      }
+    ],
+    "markdown_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-04-05/latest/report.md",
+    "json_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-04-05/latest/aggregated.json"
+  },
+  {
     "date": "2026-04-04",
     "title": "每日新闻简报 · 2026年04月04日",
     "summary": "今日国际地缘博弈显著升级，特朗普伊朗困局引发全球能源与供应链安全担忧，中美太空竞赛进入阿尔忒弥斯计划关键节点。国内产业端出现战略转向信号，小鹏汽车明确放弃低价市场，折射行业从价格战向价值战重构。社会舆情受清明节点影响，聚焦民生情感与法律纠纷，整体市场情绪在外部不确定性中保持审慎。",
@@ -21,8 +46,8 @@
         "attention": "secondary"
       }
     ],
-    "markdown_path": "./output/news-20260404-1325.md",
-    "json_path": "./output/json/news-20260404-132516.json"
+    "markdown_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-04-04/latest/report.md",
+    "json_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-04-04/latest/aggregated.json"
   },
   {
     "date": "2026-04-02",
@@ -46,8 +71,8 @@
         "attention": "secondary"
       }
     ],
-    "markdown_path": "./output/news-20260402-2136.md",
-    "json_path": "./output/json/news-20260402-213633.json"
+    "markdown_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-04-02/latest/report.md",
+    "json_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-04-02/latest/aggregated.json"
   },
   {
     "date": "2026-03-29",
@@ -71,8 +96,8 @@
         "attention": "core"
       }
     ],
-    "markdown_path": "./output/news-20260329-2144.md",
-    "json_path": "./output/json/news-20260329-214419.json"
+    "markdown_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-29/latest/report.md",
+    "json_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-29/latest/aggregated.json"
   },
   {
     "date": "2026-03-27",
@@ -96,8 +121,8 @@
         "attention": "secondary"
       }
     ],
-    "markdown_path": "./output/news-20260327-2122.md",
-    "json_path": "./output/json/news-20260327-212242.json"
+    "markdown_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-27/latest/report.md",
+    "json_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-27/latest/aggregated.json"
   },
   {
     "date": "2026-03-26",
@@ -121,8 +146,8 @@
         "attention": "secondary"
       }
     ],
-    "markdown_path": "./output/news-20260326-2219.md",
-    "json_path": "./output/json/news-20260326-221951.json"
+    "markdown_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-26/latest/report.md",
+    "json_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-26/latest/aggregated.json"
   },
   {
     "date": "2026-03-25",
@@ -146,8 +171,8 @@
         "attention": "core"
       }
     ],
-    "markdown_path": "./output/news-20260325-2156.md",
-    "json_path": "./output/json/news-20260325-215651.json"
+    "markdown_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-25/latest/report.md",
+    "json_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-25/latest/aggregated.json"
   },
   {
     "date": "2026-03-24",
@@ -171,8 +196,8 @@
         "attention": "secondary"
       }
     ],
-    "markdown_path": "/Users/daijingfeng/Desktop/news-collector-clean-v2/output/archive/2026-03-24/latest/report.md",
-    "json_path": "/Users/daijingfeng/Desktop/news-collector-clean-v2/output/archive/2026-03-24/latest/aggregated.json"
+    "markdown_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-24/latest/report.md",
+    "json_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-24/latest/aggregated.json"
   },
   {
     "date": "2026-03-23",
@@ -196,8 +221,8 @@
         "attention": "core"
       }
     ],
-    "markdown_path": "/Users/daijingfeng/Desktop/news-collector-clean-v2/output/archive/2026-03-23/latest/report.md",
-    "json_path": "/Users/daijingfeng/Desktop/news-collector-clean-v2/output/archive/2026-03-23/latest/aggregated.json"
+    "markdown_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-23/latest/report.md",
+    "json_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-23/latest/aggregated.json"
   },
   {
     "date": "2026-03-22",
@@ -221,7 +246,7 @@
         "attention": "core"
       }
     ],
-    "markdown_path": "/Users/daijingfeng/Desktop/news-collector-clean-v2/output/archive/2026-03-22/latest/report.md",
-    "json_path": "/Users/daijingfeng/Desktop/news-collector-clean-v2/output/archive/2026-03-22/latest/aggregated.json"
+    "markdown_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-22/latest/report.md",
+    "json_path": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-22/latest/aggregated.json"
   }
 ]

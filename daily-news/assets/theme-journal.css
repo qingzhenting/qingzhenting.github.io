@@ -1,119 +1,5 @@
-:root {
-  --paper: #f6f0e5;
-  --paper-deep: #ede4d2;
-  --card: rgba(255, 251, 245, 0.92);
-  --card-strong: rgba(255, 248, 237, 0.96);
-  --ink: #1f1c18;
-  --ink-soft: #544b40;
-  --muted: #756a5d;
-  --line: rgba(87, 68, 49, 0.2);
-  --line-strong: rgba(87, 68, 49, 0.34);
-  --accent: #8e2b20;
-  --accent-soft: rgba(142, 43, 32, 0.1);
-  --accent-strong: #6f1d15;
-  --gold: #95703d;
-  --shadow: 0 24px 56px rgba(63, 40, 20, 0.08);
-  --shadow-soft: 0 12px 28px rgba(63, 40, 20, 0.05);
-  --radius: 22px;
-  --radius-sm: 16px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-  color: var(--ink);
-  background:
-    radial-gradient(circle at top left, rgba(142, 43, 32, 0.05), transparent 26%),
-    radial-gradient(circle at 80% 12%, rgba(149, 112, 61, 0.08), transparent 22%),
-    linear-gradient(180deg, #f8f3ea 0%, var(--paper) 28%, #f2e9da 100%);
-  font-family: "Songti SC", "STSong", "Noto Serif SC", "Source Han Serif SC", serif;
-}
-
-body {
-  min-height: 100vh;
-  position: relative;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background:
-    linear-gradient(rgba(110, 88, 66, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(110, 88, 66, 0.03) 1px, transparent 1px);
-  background-size: 22px 22px;
-  pointer-events: none;
-  opacity: 0.22;
-  z-index: 0;
-}
-
-a {
-  color: #1d4ed8;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.page-shell {
-  width: min(860px, calc(100vw - 28px));
-  margin: 0 auto;
-  padding: 26px 0 72px;
-  position: relative;
-  z-index: 1;
-}
-
-.hero,
-.panel,
-.section-card,
-.archive-card,
-.news-card,
-.group-card {
-  background: var(--card);
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-}
-
-.hero {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 18px;
-  padding: 26px 24px 22px;
-  border-radius: 18px;
-  border-top: 5px solid var(--accent);
-  border-bottom: 2px solid rgba(87, 68, 49, 0.4);
-  background:
-    linear-gradient(180deg, rgba(255, 252, 248, 0.96), rgba(247, 238, 225, 0.94));
-}
-
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at top right, rgba(142, 43, 32, 0.1), transparent 28%),
-    linear-gradient(180deg, rgba(149, 112, 61, 0.08), transparent 60%);
-  pointer-events: none;
-}
-
-.hero-glow {
-  position: absolute;
-  right: -26px;
-  top: -18px;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(149, 112, 61, 0.16), rgba(149, 112, 61, 0));
-  pointer-events: none;
-}
+@import url("./site-tokens.css");
+@import url("./site-news.css");
 
 .hero-meta,
 .hero-foot,
@@ -185,16 +71,29 @@ a:hover {
 
 .jump-nav {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 8px;
   margin: 0 0 18px;
   position: sticky;
   top: 12px;
   z-index: 5;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.jump-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.jump-nav::after {
+  content: "";
+  flex: 0 0 14px;
 }
 
 .jump-pill {
   display: inline-flex;
+  flex-shrink: 0;
 }
 
 .jump-pill a {
@@ -223,15 +122,32 @@ a:hover {
 .stats-row {
   margin: 0 0 16px;
   gap: 12px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+  padding-bottom: 2px;
+}
+
+.stats-row::-webkit-scrollbar {
+  display: none;
+}
+
+.stats-row::after {
+  content: "";
+  flex: 0 0 14px;
 }
 
 .stat-chip {
-  min-width: 112px;
+  min-width: 90px;
   padding: 12px 14px;
   border-radius: 14px;
   background: rgba(255, 250, 242, 0.92);
   border: 1px solid rgba(87, 68, 49, 0.14);
   box-shadow: var(--shadow-soft);
+  flex-shrink: 0;
+  scroll-snap-align: start;
 }
 
 .stat-chip-muted {
@@ -358,7 +274,7 @@ a:hover {
 .group-card,
 .archive-card {
   position: relative;
-  border-radius: 18px;
+  border-radius: 20px;
   padding: 22px 20px;
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
@@ -367,8 +283,18 @@ a:hover {
 .news-card:hover,
 .group-card:hover,
 .archive-card:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 28px 50px rgba(63, 40, 20, 0.1);
+  transform: none;
+  box-shadow: var(--shadow);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .section-card:hover,
+  .news-card:hover,
+  .group-card:hover,
+  .archive-card:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 28px 50px rgba(58, 36, 20, 0.11);
+  }
 }
 
 .section-card::before,
@@ -437,8 +363,8 @@ a:hover {
   align-items: center;
   padding: 4px 10px;
   border-radius: 999px;
-  background: rgba(142, 43, 32, 0.08);
-  border: 1px solid rgba(142, 43, 32, 0.12);
+  background: rgba(140, 47, 30, 0.08);
+  border: 1px solid rgba(140, 47, 30, 0.12);
   color: var(--accent);
   font-size: 12px;
   font-weight: 700;
@@ -499,7 +425,7 @@ a:hover {
 }
 
 .source-name a {
-  color: #1d4ed8;
+  color: #1a52c8;
   font-weight: 700;
 }
 
@@ -581,7 +507,7 @@ a:hover {
   margin-right: 12px;
   padding: 3px 8px;
   border-radius: 999px;
-  background: rgba(142, 43, 32, 0.1);
+  background: rgba(140, 47, 30, 0.09);
   color: var(--accent);
   font-size: 11px;
   font-weight: 800;
@@ -599,7 +525,7 @@ a:hover {
 .trend-card {
   background:
     linear-gradient(180deg, rgba(255, 250, 242, 0.98), rgba(243, 232, 214, 0.9));
-  border-left: 5px solid rgba(111, 29, 21, 0.72);
+  border-left: 3px solid var(--line-strong);
 }
 
 .section-errors .error-list {
@@ -631,7 +557,7 @@ a:hover {
 }
 
 .archive-date {
-  color: var(--accent);
+  color: var(--gold);
   font-size: 13px;
   font-weight: 700;
 }
@@ -666,11 +592,11 @@ a:hover {
   }
 
   .hero {
-    padding: 22px 18px 20px;
+    padding: 20px 16px 18px;
   }
 
   .hero-title {
-    font-size: 34px;
+    font-size: 32px;
   }
 
   .hero-subtitle,
@@ -680,6 +606,17 @@ a:hover {
 
   .jump-nav {
     top: 8px;
+  }
+
+  .panel {
+    padding: 20px 16px;
+  }
+
+  .section-card,
+  .archive-card,
+  .group-card,
+  .news-card {
+    padding: 18px 16px;
   }
 
   .section-head {

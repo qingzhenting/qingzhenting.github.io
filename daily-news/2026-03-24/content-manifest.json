@@ -1,0 +1,63 @@
+{
+  "content": {
+    "created_at": "2026-03-24T22:17:58.384809",
+    "id": "2026-03-24",
+    "metrics": {
+      "sections_count": 5,
+      "sources_count": 3,
+      "total_items": 40
+    },
+    "paths": {
+      "index": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/site/index.html",
+      "json": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-24/latest/aggregated.json",
+      "markdown": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-24/latest/report.md",
+      "page": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/site/2026-03-24/index.html"
+    },
+    "source_url": "",
+    "summary": "今日地缘政治风险显著升级，美伊冲突持续发酵直接冲击全球能源市场，引发国内油价调控机制启动。科技领域呈现业绩分化与专利博弈并存态势，小米业绩超预期而大疆卷入核心专利诉讼。中日外交摩擦突发，朝韩关系进入新对抗阶段，国际局势复杂多变。",
+    "tags": [
+      "科技产业与商业竞争",
+      "国际变局与地缘风险",
+      "民生安全与社会治理",
+      "其他观察"
+    ],
+    "title": "每日新闻简报 · 2026年03月24日",
+    "updated_at": "2026-03-24T22:17:58.384809"
+  },
+  "generated_at": "2026-04-05T16:59:13",
+  "metadata": {
+    "date": "2026-03-24",
+    "section_previews": [
+      {
+        "attention": "core",
+        "name": "科技产业与商业竞争"
+      },
+      {
+        "attention": "core",
+        "name": "国际变局与地缘风险"
+      },
+      {
+        "attention": "secondary",
+        "name": "民生安全与社会治理"
+      }
+    ],
+    "site_theme": "journal"
+  },
+  "project": {
+    "key": "daily-news",
+    "target_subdir": "daily-news",
+    "title": "每日新闻简报"
+  },
+  "schema_version": "content-workspace.content-manifest/v1",
+  "site": {
+    "project_key": "daily-news",
+    "root_entry": {
+      "description": "多平台采集、AI 归并与日报归档",
+      "href": "/daily-news/index.html",
+      "order": 10,
+      "tag": "Daily News",
+      "title": "新闻日报"
+    },
+    "target_subdir": "daily-news"
+  }
+}

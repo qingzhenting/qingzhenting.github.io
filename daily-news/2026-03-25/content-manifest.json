@@ -1,0 +1,63 @@
+{
+  "content": {
+    "created_at": "2026-03-25T21:55:16.307520",
+    "id": "2026-03-25",
+    "metrics": {
+      "sections_count": 7,
+      "sources_count": 3,
+      "total_items": 40
+    },
+    "paths": {
+      "index": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/site/index.html",
+      "json": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-25/latest/aggregated.json",
+      "markdown": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-03-25/latest/report.md",
+      "page": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/site/2026-03-25/index.html"
+    },
+    "source_url": "",
+    "summary": "今日国际局势骤然紧张，美伊冲突升级引发全球能源通道与地缘政治高度关注，AI 误击事件更凸显战争伦理新挑战。国内政策层面，国台办明确统一后基建规划，外交部严厉回应日本使馆事件，释放强烈信号。民生与经济领域，Z 世代职场观转变及头部券商高管涉刑案引发行业反思，资本市场短期情绪在消费股与反腐消息中波动。",
+    "tags": [
+      "国际局势与地缘博弈",
+      "财经监管与市场震荡",
+      "社会民生与职场变革",
+      "国内政策与外交动态"
+    ],
+    "title": "每日新闻简报 · 2026年03月25日",
+    "updated_at": "2026-03-25T21:55:16.307520"
+  },
+  "generated_at": "2026-04-05T16:59:13",
+  "metadata": {
+    "date": "2026-03-25",
+    "section_previews": [
+      {
+        "attention": "core",
+        "name": "国际局势与地缘博弈"
+      },
+      {
+        "attention": "core",
+        "name": "财经监管与市场震荡"
+      },
+      {
+        "attention": "core",
+        "name": "社会民生与职场变革"
+      }
+    ],
+    "site_theme": "journal"
+  },
+  "project": {
+    "key": "daily-news",
+    "target_subdir": "daily-news",
+    "title": "每日新闻简报"
+  },
+  "schema_version": "content-workspace.content-manifest/v1",
+  "site": {
+    "project_key": "daily-news",
+    "root_entry": {
+      "description": "多平台采集、AI 归并与日报归档",
+      "href": "/daily-news/index.html",
+      "order": 10,
+      "tag": "Daily News",
+      "title": "新闻日报"
+    },
+    "target_subdir": "daily-news"
+  }
+}

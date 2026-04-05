@@ -9,8 +9,8 @@
     },
     "paths": {
       "index": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/site/index.html",
-      "json": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/json/news-20260404-132516.json",
-      "markdown": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/news-20260404-1325.md",
+      "json": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-04-04/latest/aggregated.json",
+      "markdown": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-04-04/latest/report.md",
       "page": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/site/2026-04-04/index.html"
     },
     "source_url": "",
@@ -24,7 +24,7 @@
     "title": "每日新闻简报 · 2026年04月04日",
     "updated_at": "2026-04-04T13:24:08.816096"
   },
-  "generated_at": "2026-04-04T13:25:16",
+  "generated_at": "2026-04-05T16:59:13",
   "metadata": {
     "date": "2026-04-04",
     "section_previews": [

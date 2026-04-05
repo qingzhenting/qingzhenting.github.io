@@ -1,0 +1,63 @@
+{
+  "content": {
+    "created_at": "2026-04-02T21:34:27.671965",
+    "id": "2026-04-02",
+    "metrics": {
+      "sections_count": 6,
+      "sources_count": 3,
+      "total_items": 40
+    },
+    "paths": {
+      "index": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/site/index.html",
+      "json": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-04-02/latest/aggregated.json",
+      "markdown": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/archive/2026-04-02/latest/report.md",
+      "page": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/site/2026-04-02/index.html"
+    },
+    "source_url": "",
+    "summary": "今日国际局势紧张，美以伊冲突升级引发地缘政治与能源市场高度关注。国内政策监管持续收紧，三部门约谈头部平台整治跨境违规营销，文物清点专项行动启动。科技产业方面，存储芯片现货价格回调释放供需拐点信号，自动驾驶安全事件引发对技术落地的反思。",
+    "tags": [
+      "科技产业与市场风向",
+      "宏观局势与政策监管",
+      "国际观察与深度议题",
+      "社会民生与公共讨论"
+    ],
+    "title": "每日新闻简报 · 2026年04月02日",
+    "updated_at": "2026-04-02T21:34:27.671965"
+  },
+  "generated_at": "2026-04-05T16:59:13",
+  "metadata": {
+    "date": "2026-04-02",
+    "section_previews": [
+      {
+        "attention": "core",
+        "name": "科技产业与市场风向"
+      },
+      {
+        "attention": "core",
+        "name": "宏观局势与政策监管"
+      },
+      {
+        "attention": "secondary",
+        "name": "国际观察与深度议题"
+      }
+    ],
+    "site_theme": "journal"
+  },
+  "project": {
+    "key": "daily-news",
+    "target_subdir": "daily-news",
+    "title": "每日新闻简报"
+  },
+  "schema_version": "content-workspace.content-manifest/v1",
+  "site": {
+    "project_key": "daily-news",
+    "root_entry": {
+      "description": "多平台采集、AI 归并与日报归档",
+      "href": "/daily-news/index.html",
+      "order": 10,
+      "tag": "Daily News",
+      "title": "新闻日报"
+    },
+    "target_subdir": "daily-news"
+  }
+}
