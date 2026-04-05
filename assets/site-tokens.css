@@ -1,0 +1,65 @@
+:root {
+  --bg: #f0ece2;
+  --paper: #fdfcf9;
+  --paper-deep: #ece4d6;
+  --reading-bg: #fdfcf9;
+  --card: rgba(255, 251, 245, 0.94);
+  --card-strong: rgba(255, 254, 251, 0.97);
+  --ink: #1e1b17;
+  --ink-mid: #4a443c;
+  --ink-soft: #544c43;
+  --ink-muted: #7a7068;
+  --muted: #7a7068;
+  --line: #ddd6ca;
+  --line-strong: rgba(95, 77, 58, 0.25);
+  --accent: #c04e37;
+  --accent-soft: #f5e9e5;
+  --accent-strong: #9f402c;
+  --gold: #93703b;
+  --chip-bg: #ebe6db;
+  --shadow: 0 1px 3px rgba(30, 27, 23, 0.04), 0 4px 20px rgba(30, 27, 23, 0.06);
+  --shadow-soft: 0 8px 24px rgba(30, 27, 23, 0.05);
+  --radius: 20px;
+  --radius-sm: 14px;
+  --radius-xs: 4px;
+  --max-content: 680px;
+  --max-listing: 760px;
+  --serif: "Noto Serif SC", "Songti SC", "SimSun", Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --fs-body: 17px;
+  --fs-small: 14px;
+  --fs-micro: 11.5px;
+  --lh-body: 1.95;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0 0 80px;
+  background-color: var(--bg);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
+  color: var(--ink-mid);
+  font-family: var(--serif);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

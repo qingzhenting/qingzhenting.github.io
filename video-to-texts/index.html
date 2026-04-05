@@ -7,198 +7,67 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <style>
-    :root {
-      --bg: #f0ece2;
-      --paper: #fdfcf9;
-      --ink: #1e1b17;
-      --ink-mid: #4a443c;
-      --ink-muted: #7a7068;
-      --accent: #c04e37;
-      --accent-pale: #f5e9e5;
-      --rule: #ddd6ca;
-      --chip-bg: #ebe6db;
-      --serif: "Noto Serif SC", "Songti SC", "SimSun", Georgia, serif;
-      --sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
-      --shadow: 0 1px 3px rgba(30, 27, 23, 0.04), 0 4px 20px rgba(30, 27, 23, 0.06);
-    }
-    *, *::before, *::after { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      padding: 0 0 80px;
-      background-color: var(--bg);
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
-      color: var(--ink-mid);
-      font-family: var(--serif);
-      text-rendering: optimizeLegibility;
-      -webkit-font-smoothing: antialiased;
-    }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .shell { width: min(100%, 760px); margin: 0 auto; }
-    .hero {
-      padding: 36px 20px 12px;
-    }
-    .hero::before {
-      content: "";
-      display: block;
-      width: 40px;
-      height: 3px;
-      background: var(--accent);
-      margin-bottom: 18px;
-    }
-    h1 {
-      margin: 0;
-      font-family: var(--serif);
-      font-size: clamp(25px, 6vw, 38px);
-      font-weight: 700;
-      line-height: 1.35;
-      color: var(--ink);
-      letter-spacing: 0.01em;
-    }
-    .hero p {
-      margin: 12px 0 0;
-      max-width: 36em;
-      color: var(--ink-muted);
-      font-family: var(--sans);
-      font-size: 14px;
-      line-height: 1.8;
-    }
-    .list-sheet {
-      margin-top: 16px;
-      background: var(--paper);
-      box-shadow: var(--shadow);
-      padding: 10px 20px 8px;
-    }
-    .list-item {
-      display: grid;
-      grid-template-columns: 42px minmax(0, 1fr);
-      gap: 14px;
-      align-items: start;
-      padding: 18px 0;
-    }
-    .list-item + .list-item {
-      border-top: 1px solid var(--rule);
-    }
-    .item-index {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      color: var(--accent);
-      font-family: var(--sans);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      padding-top: 4px;
-    }
-    .item-main h2 {
-      margin: 0;
-      font-family: var(--serif);
-      font-size: clamp(20px, 4.8vw, 28px);
-      line-height: 1.55;
-      font-weight: 600;
-      color: var(--ink);
-    }
-    .item-main a { color: inherit; }
-    .item-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px 14px;
-      margin-top: 10px;
-      color: var(--ink-muted);
-      font-family: var(--sans);
-      font-size: 12.5px;
-      line-height: 1.6;
-    }
-    .source-link {
-      color: var(--ink-muted);
-      text-decoration: underline;
-      text-decoration-color: var(--rule);
-    }
-    .source-link:hover {
-      color: var(--accent);
-      text-decoration-color: var(--accent);
-    }
-    .empty {
-      padding: 28px 0;
-      color: var(--ink-muted);
-      font-family: var(--sans);
-      font-size: 14px;
-    }
-    @media (min-width: 720px) {
-      body { padding-bottom: 100px; }
-      .hero { padding: 52px 0 16px; }
-      .list-sheet {
-        padding: 14px 34px 10px;
-        border-radius: 3px;
-      }
-    }
-    @media (max-width: 640px) {
-      .list-sheet { padding: 8px 16px 6px; }
-      .list-item { grid-template-columns: 34px minmax(0, 1fr); gap: 10px; }
-      .item-main h2 { line-height: 1.5; }
-    }
-  </style>
+  <link rel="stylesheet" href="./assets/site-tokens.css" />
+  <link rel="stylesheet" href="./assets/site-directory.css" />
 </head>
 <body>
-  <main class="shell">
-    <section class="hero">
-      <h1>视频转文本</h1>
-      <p>统一的长文转录目录页。按最近更新时间排序，进入后使用同一套移动端优先的阅读模板。</p>
+  <main class="site-shell">
+    <section class="site-hero">
+      <div class="site-eyebrow">Video To Texts</div>
+      <h1 class="site-title">视频转文本</h1>
+      <p class="site-intro">统一的长文转录目录页。按最近更新时间排序，进入后使用同一套移动端优先的阅读模板。</p>
     </section>
-    <section class="list-sheet">
-      <article class="list-item">
-  <div class="item-index">01</div>
-  <div class="item-main">
-    <h2><a href="./20260405-143016-38474801de.html">美伊冲突给世界启示，不会造物的终将衰落</a></h2>
-    <div class="item-meta">
-      <span>2026-04-05 14:30</span>
+    <section class="directory-sheet">
+      <article class="directory-row">
+  <div class="directory-index">01</div>
+  <div class="directory-main">
+    <h2><a href="./20260405-152342-38474801de.html">美伊冲突给世界启示，不会造物的终将衰落</a></h2>
+    <div class="directory-meta">
+      <span>2026-04-05 15:23</span>
       <a class="source-link" href="https://www.bilibili.com/video/BV1GbApzCEJG/?spm_id_from=333.1007.tianma.2-2-5.click&amp;vd_source=203a4355e8a08ddb9ed725d97d0c9db6" target="_blank" rel="noreferrer">原文链接</a>
     </div>
   </div>
-</article><article class="list-item">
-  <div class="item-index">02</div>
-  <div class="item-main">
-    <h2><a href="./20260405-143016-1c9875477d.html">经济危机的本质：指望月薪三千的你，去买光一万块的商品</a></h2>
-    <div class="item-meta">
-      <span>2026-04-05 14:30</span>
+</article><article class="directory-row">
+  <div class="directory-index">02</div>
+  <div class="directory-main">
+    <h2><a href="./20260405-152342-1c9875477d.html">经济危机的本质：指望月薪三千的你，去买光一万块的商品</a></h2>
+    <div class="directory-meta">
+      <span>2026-04-05 15:23</span>
       <a class="source-link" href="https://www.bilibili.com/video/BV1N7QSB1EzS/?spm_id_from=333.1007.tianma.4-4-14.click&amp;vd_source=203a4355e8a08ddb9ed725d97d0c9db6" target="_blank" rel="noreferrer">原文链接</a>
     </div>
   </div>
-</article><article class="list-item">
-  <div class="item-index">03</div>
-  <div class="item-main">
-    <h2><a href="./20260405-143016-90ff478cb0.html">每月提高20元，农村养老金低了吗？为什么农民养老等不起了？</a></h2>
-    <div class="item-meta">
-      <span>2026-04-05 14:30</span>
+</article><article class="directory-row">
+  <div class="directory-index">03</div>
+  <div class="directory-main">
+    <h2><a href="./20260405-152342-90ff478cb0.html">每月提高20元，农村养老金低了吗？为什么农民养老等不起了？</a></h2>
+    <div class="directory-meta">
+      <span>2026-04-05 15:23</span>
       <a class="source-link" href="https://www.bilibili.com/video/BV1USAJzhE6Q?spm_id_from=333.788.videopod.sections&amp;vd_source=203a4355e8a08ddb9ed725d97d0c9db6" target="_blank" rel="noreferrer">原文链接</a>
     </div>
   </div>
-</article><article class="list-item">
-  <div class="item-index">04</div>
-  <div class="item-main">
-    <h2><a href="./20260405-143016-e208568a5b.html">月薪三五千，就不用交税吗？ 国家每年要从你身上收走多少税钱？</a></h2>
-    <div class="item-meta">
-      <span>2026-04-05 14:30</span>
+</article><article class="directory-row">
+  <div class="directory-index">04</div>
+  <div class="directory-main">
+    <h2><a href="./20260405-152342-e208568a5b.html">月薪三五千，就不用交税吗？ 国家每年要从你身上收走多少税钱？</a></h2>
+    <div class="directory-meta">
+      <span>2026-04-05 15:23</span>
       <a class="source-link" href="https://www.bilibili.com/video/BV1PerZB6ENv/?spm_id_from=333.1387.homepage.video_card.click&amp;vd_source=203a4355e8a08ddb9ed725d97d0c9db6" target="_blank" rel="noreferrer">原文链接</a>
     </div>
   </div>
-</article><article class="list-item">
-  <div class="item-index">05</div>
-  <div class="item-main">
-    <h2><a href="./20260405-143016-2b5f40e97e.html">斩首真相，以色列不想战争结束？豪赌结束，美国的战争泥潭要来了吗？【美伊以战争-2】</a></h2>
-    <div class="item-meta">
-      <span>2026-04-05 14:30</span>
+</article><article class="directory-row">
+  <div class="directory-index">05</div>
+  <div class="directory-main">
+    <h2><a href="./20260405-152342-2b5f40e97e.html">斩首真相，以色列不想战争结束？豪赌结束，美国的战争泥潭要来了吗？【美伊以战争-2】</a></h2>
+    <div class="directory-meta">
+      <span>2026-04-05 15:23</span>
       <a class="source-link" href="https://www.bilibili.com/video/BV1B4XhBSE2F/?spm_id_from=333.1007.tianma.3-1-7.click&amp;vd_source=203a4355e8a08ddb9ed725d97d0c9db6" target="_blank" rel="noreferrer">原文链接</a>
     </div>
   </div>
-</article><article class="list-item">
-  <div class="item-index">06</div>
-  <div class="item-main">
-    <h2><a href="./20260405-143016-02b164f35c.html">【酷温】 视 同 缴 费 ？</a></h2>
-    <div class="item-meta">
+</article><article class="directory-row">
+  <div class="directory-index">06</div>
+  <div class="directory-main">
+    <h2><a href="./20260405-152342-02b164f35c.html">【酷温】 视 同 缴 费 ？</a></h2>
+    <div class="directory-meta">
       <span>2026-04-04 14:34</span>
       <a class="source-link" href="https://www.bilibili.com/video/BV17ZXpB4Eiz/?spm_id_from=333.1007.tianma.1-1-1.click&amp;vd_source=203a4355e8a08ddb9ed725d97d0c9db6" target="_blank" rel="noreferrer">原文链接</a>
     </div>
