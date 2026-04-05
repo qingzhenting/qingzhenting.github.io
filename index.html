@@ -6,13 +6,13 @@
   <title>qingzhenting.github.io</title>
   <style>
     :root {
-      --bg: #f5f2ea;
+      --bg: #f5f0e8;
       --panel: rgba(255,255,255,0.82);
       --text: #1f1b16;
-      --muted: #6a6156;
+      --muted: #7a6f63;
       --line: rgba(78, 61, 42, 0.14);
-      --accent: #7b2d26;
-      --accent-soft: rgba(123, 45, 38, 0.08);
+      --accent: #8c2f1e;
+      --accent-soft: rgba(140, 47, 30, 0.09);
       --shadow: 0 28px 56px rgba(36, 28, 20, 0.08);
     }
     * { box-sizing: border-box; }
@@ -25,21 +25,21 @@
         radial-gradient(circle at 84% 10%, rgba(170,132,70,0.10), transparent 18%),
         linear-gradient(180deg, #f8f4ed 0%, var(--bg) 32%, #efe7d9 100%);
       color: var(--text);
-      font-family: "Songti SC", "STSong", "Noto Serif SC", serif;
+      font-family: "Songti SC", "STSong", "Noto Serif SC", "Source Han Serif SC", Georgia, serif;
     }
     body {
       padding: 28px 18px 56px;
     }
     .shell {
-      width: min(980px, 100%);
+      width: min(960px, 100%);
       margin: 0 auto;
     }
     .hero {
-      padding: 28px 24px;
+      padding: 28px 26px;
       border: 1px solid var(--line);
       background: linear-gradient(180deg, rgba(255,252,248,0.94), rgba(248,241,231,0.92));
       box-shadow: var(--shadow);
-      border-radius: 20px;
+      border-radius: 26px;
     }
     .eyebrow {
       color: var(--accent);
@@ -64,7 +64,7 @@
     .grid {
       margin-top: 20px;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 18px;
     }
     .entry-card {
@@ -73,7 +73,7 @@
       gap: 12px;
       min-height: 220px;
       padding: 22px 20px;
-      border-radius: 18px;
+      border-radius: 20px;
       border: 1px solid var(--line);
       background: var(--panel);
       box-shadow: var(--shadow);
@@ -83,7 +83,7 @@
     }
     .entry-card:hover {
       transform: translateY(-2px);
-      border-color: rgba(123,45,38,0.22);
+      border-color: rgba(140,47,30,0.22);
       text-decoration: none;
     }
     .entry-top {
@@ -121,9 +121,10 @@
     }
     @media (max-width: 640px) {
       body { padding: 16px 12px 36px; }
-      .hero { padding: 22px 18px; }
+      .hero { padding: 20px 16px; }
       .entry-card { min-height: 0; }
       .entry-card h2 { font-size: 24px; }
+      .eyebrow { font-size: 10px; }
     }
   </style>
 </head>
