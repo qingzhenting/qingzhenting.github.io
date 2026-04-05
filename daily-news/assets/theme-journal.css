@@ -1,5 +1,122 @@
 @import url("./site-tokens.css");
 @import url("./site-news.css");
+@import url("./site-reading.css");
+
+.page-shell,
+.brief-shell {
+  width: min(100%, 960px);
+  margin: 0 auto;
+  padding: 24px clamp(16px, 4vw, 32px) 72px;
+  position: relative;
+  z-index: 1;
+}
+
+.brief-shell {
+  max-width: 860px;
+}
+
+.brief-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 6px 20px 0;
+}
+
+.brief-action-link,
+.brief-archive-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(87, 68, 49, 0.14);
+  background: rgba(255, 251, 245, 0.9);
+  box-shadow: var(--shadow-soft);
+  color: var(--accent-strong);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.brief-action-link:hover,
+.brief-archive-link:hover {
+  background: rgba(255, 254, 251, 0.96);
+  text-decoration: none;
+}
+
+.brief-list {
+  display: grid;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.brief-card {
+  position: relative;
+  display: grid;
+  gap: 12px;
+  padding: 22px 20px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(255, 251, 246, 0.96), rgba(247, 239, 226, 0.92));
+  border: 1px solid rgba(87, 68, 49, 0.12);
+  box-shadow: var(--shadow);
+}
+
+.brief-date {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  color: var(--gold);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.brief-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(140, 47, 30, 0.09);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.brief-card p {
+  margin: 0;
+  color: var(--ink);
+  line-height: 1.9;
+}
+
+.brief-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--accent-strong);
+  font-weight: 700;
+}
+
+.brief-archive-link {
+  margin: 22px 20px 0;
+}
+
+.summary-card,
+.toc-card {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.content-list {
+  margin-top: 18px;
+}
+
+.content-sheet {
+  border: 1px solid rgba(87, 68, 49, 0.12);
+  border-radius: 22px;
+  padding: clamp(24px, 4vw, 40px) clamp(18px, 4.4vw, 48px) clamp(32px, 5vw, 56px);
+}
 
 .hero-meta,
 .hero-foot,
@@ -574,8 +691,13 @@
 
 @media (max-width: 760px) {
   .page-shell {
-    width: min(100vw - 18px, 860px);
-    padding-top: 14px;
+    width: 100%;
+    padding: 16px 14px 52px;
+  }
+
+  .brief-shell {
+    width: 100%;
+    padding: 16px 14px 52px;
   }
 
   .card-grid {
@@ -595,6 +717,10 @@
     padding: 20px 16px 18px;
   }
 
+  .reading-hero {
+    padding: 24px 4px 8px;
+  }
+
   .hero-title {
     font-size: 32px;
   }
@@ -612,11 +738,33 @@
     padding: 20px 16px;
   }
 
+  .summary-card,
+  .toc-card,
+  .brief-actions,
+  .brief-archive-link {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .brief-list {
+    gap: 14px;
+  }
+
+  .brief-card {
+    border-radius: 16px;
+    padding: 18px 16px;
+  }
+
   .section-card,
   .archive-card,
   .group-card,
   .news-card {
     padding: 18px 16px;
+  }
+
+  .content-sheet {
+    border-radius: 16px;
+    padding: 22px 16px 28px;
   }
 
   .section-head {
