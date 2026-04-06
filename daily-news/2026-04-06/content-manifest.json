@@ -1,0 +1,63 @@
+{
+  "content": {
+    "created_at": "2026-04-06T08:37:15.712862",
+    "id": "2026-04-06",
+    "metrics": {
+      "sections_count": 4,
+      "sources_count": 3,
+      "total_items": 20
+    },
+    "paths": {
+      "index": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/site/index.html",
+      "json": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/json/news-20260406-083842.json",
+      "markdown": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/output/news-20260406-0838.md",
+      "page": "/Users/daijingfeng/Documents/projects/content-workspace/news-collector/site/2026-04-06/index.html"
+    },
+    "source_url": "",
+    "summary": "今日国际局势剧烈波动，特朗普政府深陷伊朗战争泥潭，中美伊战略博弈升级引发全球供应链与通胀担忧，成为核心关注点。科技领域，中美太空竞赛进入新阶段，阿尔忒弥斯任务启航折射大国战略分歧。国内方面，清明假期文旅消费呈现年轻化新趋势，而AI情感陪伴技术引发的伦理讨论初现端倪。娱乐与体育热点虽多，但缺乏深层公共价值，仅作背景参考。",
+    "tags": [
+      "科技前沿与战略竞争",
+      "地缘博弈与宏观变局",
+      "社会民生与消费观察",
+      "其他观察"
+    ],
+    "title": "每日新闻简报 · 2026年04月06日",
+    "updated_at": "2026-04-06T08:37:15.712862"
+  },
+  "generated_at": "2026-04-06T08:38:42",
+  "metadata": {
+    "date": "2026-04-06",
+    "section_previews": [
+      {
+        "attention": "core",
+        "name": "科技前沿与战略竞争"
+      },
+      {
+        "attention": "core",
+        "name": "地缘博弈与宏观变局"
+      },
+      {
+        "attention": "secondary",
+        "name": "社会民生与消费观察"
+      }
+    ],
+    "site_theme": "journal"
+  },
+  "project": {
+    "key": "daily-news",
+    "target_subdir": "daily-news",
+    "title": "每日新闻简报"
+  },
+  "schema_version": "content-workspace.content-manifest/v1",
+  "site": {
+    "project_key": "daily-news",
+    "root_entry": {
+      "description": "多平台采集、AI 归并与日报归档",
+      "href": "/daily-news/index.html",
+      "order": 10,
+      "tag": "Daily News",
+      "title": "新闻日报"
+    },
+    "target_subdir": "daily-news"
+  }
+}
