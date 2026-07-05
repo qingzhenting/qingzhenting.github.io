@@ -1,1 +1,167 @@
 /* Project-specific overrides for transcript detail pages. */
+
+.reading-shell {
+  padding-inline: 20px;
+}
+
+.reading-hero {
+  padding-bottom: 18px;
+}
+
+.reading-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+  font-family: var(--sans);
+}
+
+.reading-meta span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--ink-muted);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.layout {
+  display: grid;
+  gap: 18px;
+}
+
+.summary-card,
+.content-sheet,
+.info-card {
+  border: 1px solid rgba(95, 77, 58, 0.12);
+}
+
+.summary-card {
+  border-radius: 8px;
+}
+
+.content-sheet,
+.info-card {
+  border-radius: 8px;
+}
+
+.content-section h3,
+.content-section h4,
+.content-section h5,
+.content-section h6 {
+  font-family: var(--serif);
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.content-section h3 {
+  margin: 28px 0 12px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.content-section h4 {
+  margin: 24px 0 10px;
+  padding-left: 10px;
+  border-left: 3px solid var(--accent);
+  color: var(--accent-strong);
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.content-section h5,
+.content-section h6 {
+  margin: 20px 0 8px;
+  color: var(--ink-soft);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.content-body pre {
+  margin: 1.2em 0;
+  padding: 14px 16px;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f7f4ee;
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.content-body pre code {
+  display: block;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  white-space: pre;
+}
+
+.table-wrap {
+  width: 100%;
+  margin: 1.25em 0;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+}
+
+.content-body table {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+  font-family: var(--sans);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.content-body th,
+.content-body td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.content-body th {
+  background: var(--accent-soft);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.content-body tr:last-child td {
+  border-bottom: 0;
+}
+
+.content-body img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.2em auto;
+  border-radius: 8px;
+}
+
+.content-body hr {
+  height: 1px;
+  margin: 2em 0;
+  border: 0;
+  background: var(--line);
+}
+
+@media (max-width: 719px) {
+  .reading-shell {
+    padding-inline: 0;
+  }
+
+  .content-body table {
+    min-width: 420px;
+  }
+}
